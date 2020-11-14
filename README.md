@@ -58,6 +58,8 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
 
 # WebRTC
 
+it includes SDP.
+
 a Streaming App & Desk Remote App solution.
 
 ![RTC](https://raw.githubusercontent.com/QueenieCplusplus/ChatRoom_Nodejs_App/main/FlowProcess.png)
