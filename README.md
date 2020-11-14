@@ -64,7 +64,7 @@ a Streaming App & Desk Remote App solution.
 
 WebRTC can be quite complex due to complexity of mixed protocols, it is abstracted than the web browser's APIs. Now we sum up the core concept the RTC included.
 
-* Datagram Transport Layer Security (DTLS) 傳輸安全層
+* Datagram Transport Layer Security (DTLS)傳輸安全層
 
   An implementation of the Transport Layer Security specification that can be used over User Datagram Protocol (UDP). WebRTC requires all data to be encrypted in transit and uses DTLS to secure data transmission.
 
