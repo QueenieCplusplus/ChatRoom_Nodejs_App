@@ -32,8 +32,6 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
 # WebRTC API
 
 
-![](https://raw.githubusercontent.com/QueenieCplusplus/ChatRoom_Nodejs_App/main/FlowProcess.png)
-
 * RTCPeerConnection (for JS)
   
   The JavaScript object used to create a WebRTC connection. The WebRTC adapter JavaScript source provides a standard interface so that you don't have to create custom code for each browser-specific implementation.
@@ -60,6 +58,8 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
 
 a Streaming App & Desk Remote App solution.
 
+![RTC](https://raw.githubusercontent.com/QueenieCplusplus/ChatRoom_Nodejs_App/main/FlowProcess.png)
+
 WebRTC can be quite complex due to complexity of mixed protocols, it is abstracted than the web browser's APIs. Now we sum up the core concept the RTC included.
 
 * Datagram Transport Layer Security (DTLS)
@@ -71,7 +71,7 @@ WebRTC can be quite complex due to complexity of mixed protocols, it is abstract
   Media and connection configuration and capabilities exchanged by peers during connection establishment.
 
 
-* signaling
+* Signaling (websocket)
 
   An external service used by peer connections that is not included in the WebRTC specification, but is required for connection establishment. Although there is no formal specification for signaling, it is common to use a WebSocket or Extensible Messaging and Presence Protocol (XMPP).
 
