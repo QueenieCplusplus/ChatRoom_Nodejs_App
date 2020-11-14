@@ -14,6 +14,16 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
 * Interactive Connectivity Establishment (ICE)
 
   Method used by WebRTC to discover the optimal way to create a peer-to-peer connection. Peers exchange ICE candidates that are negotiated and prioritized until a common connection method is agreed upon.
+  
+# Peer Connection
+
+* Traversal Using Relays around NAT (TURN)
+
+  An external service used as a relay by peers if no direct peer-to-peer.
+  
+* Session Traversal Utilities for NAT (STUN)
+  
+  An external service used by peers to discover their real external IP address if they are behind a firewall or NAT gateway.
 
 # WebRTC
 
@@ -29,16 +39,11 @@ WebRTC can be quite complex due to complexity of mixed protocols, it is abstract
   
   Media and connection configuration and capabilities exchanged by peers during connection establishment.
 
-* Session Traversal Utilities for NAT (STUN)
-  
-  An external service used by peers to discover their real external IP address if they are behind a firewall or NAT gateway.
 
 * signaling
 
   An external service used by peer connections that is not included in the WebRTC specification, but is required for connection establishment. Although there is no formal specification for signaling, it is common to use a WebSocket or Extensible Messaging and Presence Protocol (XMPP).
 
-* Traversal Using Relays around NAT (TURN)
 
-  An external service used as a relay by peers if no direct peer-to-pe
 
 
