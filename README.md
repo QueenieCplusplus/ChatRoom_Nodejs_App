@@ -38,7 +38,7 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
   
   The JavaScript object used to create a WebRTC connection. The WebRTC adapter JavaScript source provides a standard interface so that you don't have to create custom code for each browser-specific implementation.
   
-* Interactive Connectivity Establishment (ICE), 互動活動串接的建立
+* Interactive Connectivity Establishment Candidate (ICE), 互動活動串接的建立者或稱候選人
 
   Method used by WebRTC to discover the optimal way to create a peer-to-peer connection. Peers exchange ICE candidates that are negotiated and prioritized until a common connection method is agreed upon.
   
