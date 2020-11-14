@@ -64,16 +64,16 @@ a Streaming App & Desk Remote App solution.
 
 WebRTC can be quite complex due to complexity of mixed protocols, it is abstracted than the web browser's APIs. Now we sum up the core concept the RTC included.
 
-* Datagram Transport Layer Security (DTLS)
+* Datagram Transport Layer Security (DTLS) 傳輸安全層
 
   An implementation of the Transport Layer Security specification that can be used over User Datagram Protocol (UDP). WebRTC requires all data to be encrypted in transit and uses DTLS to secure data transmission.
 
-* Session Description Protocol (SDP)
+* Session Description Protocol (SDP), 會議描述協定
   
   Media and connection configuration and capabilities exchanged by peers during connection establishment.
 
 
-* Signaling (websocket)
+* Signaling (websocket), 收發訊號
 
   An external service used by peer connections that is not included in the WebRTC specification, but is required for connection establishment. Although there is no formal specification for signaling, it is common to use a WebSocket or Extensible Messaging and Presence Protocol (XMPP).
 
