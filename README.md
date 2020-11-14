@@ -3,7 +3,7 @@ test FirebaseRTC API & Firebase DB &amp; RTC-supported Browser
 
 # Firebase DB & Firebase Host
 
-     // see
+     // see firebase.json
 
     {
       "database": {
