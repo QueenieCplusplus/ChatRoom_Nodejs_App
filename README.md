@@ -50,14 +50,14 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
 
 ![](https://raw.githubusercontent.com/QueenieCplusplus/ChatRoom_Nodejs_App/main/peer.png)
 
-* Traversal Using Relays around NAT (TURN)
-
-  An external service used as a relay by peers if no direct peer-to-peer.
-  
 * Session Traversal Utilities for NAT (STUN)
   
   An external service used by peers to discover their real external IP address if they are behind a firewall or NAT gateway.
 
+* Traversal Using Relays around NAT (TURN)
+
+  An external service used as a relay by peers if no direct peer-to-peer.
+  
 # SDP
 
 ![RTC](https://raw.githubusercontent.com/QueenieCplusplus/ChatRoom_Nodejs_App/main/FlowProcess.png)
