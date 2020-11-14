@@ -48,6 +48,8 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
   
 # Peer Connection
 
+找到同儕的方法
+
 ![](https://raw.githubusercontent.com/QueenieCplusplus/ChatRoom_Nodejs_App/main/peer.png)
 
 * Session Traversal Utilities for NAT (STUN)
@@ -59,6 +61,8 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
   An external service used as a relay by peers if no direct peer-to-peer.
   
 # SDP
+
+與同儕建立會議連線的過程
 
 ![RTC](https://raw.githubusercontent.com/QueenieCplusplus/ChatRoom_Nodejs_App/main/FlowProcess.png)
 
