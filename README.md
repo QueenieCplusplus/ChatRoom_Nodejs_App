@@ -1,5 +1,7 @@
 # ChatRoom_Nodejs_App
-test FirebaseRTC API & Firebase DB &amp; RTC-supported Browser 
+test FirebaseRTC API & Firebase DB &amp; RTC-supported Browser
+
+a Streaming App & Desk Remote App solution.
 
 # Firebase DB & Firebase Host
 
@@ -56,11 +58,7 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
   
   An external service used by peers to discover their real external IP address if they are behind a firewall or NAT gateway.
 
-# WebRTC
-
-it includes SDP.
-
-a Streaming App & Desk Remote App solution.
+# SDP
 
 ![RTC](https://raw.githubusercontent.com/QueenieCplusplus/ChatRoom_Nodejs_App/main/FlowProcess.png)
 
