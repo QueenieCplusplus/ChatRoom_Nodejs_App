@@ -31,6 +31,9 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
 
 # WebRTC API
 
+
+![](https://raw.githubusercontent.com/QueenieCplusplus/ChatRoom_Nodejs_App/main/FlowProcess.png)
+
 * RTCPeerConnection (for JS)
   
   The JavaScript object used to create a WebRTC connection. The WebRTC adapter JavaScript source provides a standard interface so that you don't have to create custom code for each browser-specific implementation.
