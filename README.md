@@ -19,7 +19,7 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
 
 a Streaming App & Desk Remote App solution.
 
-WebRTC can be quite complex. Much of this complexity due to complexity of mixed protocols, it is abstracted than the web browser's APIs. Now we sum up the core concept the RTC included.
+WebRTC can be quite complex due to complexity of mixed protocols, it is abstracted than the web browser's APIs. Now we sum up the core concept the RTC included.
 
 * Datagram Transport Layer Security (DTLS)
 
