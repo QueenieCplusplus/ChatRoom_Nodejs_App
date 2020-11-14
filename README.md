@@ -32,6 +32,8 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
 # WebRTC API
 
 * RTCPeerConnection (for JS)
+
+  The RTCPeerConnection data channel is an arbitrary data stream linked to the peer connection that uses the same connection methods as the video and audio tracks.
   
   The JavaScript object used to create a WebRTC connection. The WebRTC adapter JavaScript source provides a standard interface so that you don't have to create custom code for each browser-specific implementation.
   
