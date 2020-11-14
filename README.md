@@ -1,7 +1,7 @@
 # ChatRoom_Nodejs_App
 test FirebaseRTC API & Firebase DB &amp; RTC-supported Browser 
 
-npm 套件需追加 TLS
+npm 套件需追加 TLS 和 firebase shell 
 
 # WebRTC
 
