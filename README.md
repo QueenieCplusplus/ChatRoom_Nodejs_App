@@ -19,7 +19,7 @@ WebRTC can be quite complex. Much of this complexity due to complexity of mixed 
 
   Method used by WebRTC to discover the optimal way to create a peer-to-peer connection. Peers exchange ICE candidates that are negotiated and prioritized until a common connection method is agreed upon.
 
-* RTCPeerConnection
+* RTCPeerConnection (for JS)
   
   The JavaScript object used to create a WebRTC connection. The WebRTC adapter JavaScript source provides a standard interface so that you don't have to create custom code for each browser-specific implementation.
 
