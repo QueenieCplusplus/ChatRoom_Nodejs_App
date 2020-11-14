@@ -46,6 +46,8 @@ npm 套件需追加 TLS 、 firebase shell 、RTCPeerConnection。
   
 # Peer Connection
 
+![](https://raw.githubusercontent.com/QueenieCplusplus/ChatRoom_Nodejs_App/main/peer.png)
+
 * Traversal Using Relays around NAT (TURN)
 
   An external service used as a relay by peers if no direct peer-to-peer.
